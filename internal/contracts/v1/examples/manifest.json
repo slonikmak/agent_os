@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-29T00:00:00Z",
+  "appVersion": "0.1.0",
+  "buildVersion": "production",
+  "os": "darwin",
+  "osVersion": null,
+  "arch": "arm64",
+  "runtime": {
+    "go": "go1.27.3",
+    "wails": "3.0.0",
+    "webview": null
+  },
+  "schemaStatus": "unknown",
+  "schemaVersionApplied": null,
+  "sessionId": null,
+  "errorId": null,
+  "sharedDiagnostics": "unknown",
+  "coverage": {
+    "complete": false,
+    "acceptedRecords": 1,
+    "omittedRecords": 2,
+    "unavailableFiles": 1,
+    "truncatedRecords": 0
+  }
+}

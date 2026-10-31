@@ -1,0 +1,46 @@
+{
+  "workspaceId": "00000000000000000000000000000001",
+  "workspaceRevision": 3,
+  "createdAt": "2026-10-29T00:00:00Z",
+  "tasks": [
+    {
+      "id": "T-0001",
+      "kind": "request",
+      "status": "new",
+      "title": "Clarify export behavior",
+      "summary": null,
+      "nextAction": null,
+      "nextActor": null,
+      "revision": 1,
+      "updatedAt": "2026-10-29T00:00:00Z"
+    }
+  ],
+  "inbox": [
+    {
+      "id": "I-0001",
+      "source": "manual",
+      "scope": "personal",
+      "kind": "user_request",
+      "status": "pending",
+      "sender": null,
+      "occurredAt": null,
+      "receivedAt": "2026-10-29T00:00:00Z",
+      "revision": 1
+    }
+  ],
+  "sources": [
+    {
+      "source": "manual",
+      "scope": "personal",
+      "status": "not_configured",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null
+    }
+  ],
+  "counts": {
+    "tasks": 1,
+    "inbox": 1,
+    "unprocessedInbox": 1,
+    "needsAttention": 0
+  }
+}

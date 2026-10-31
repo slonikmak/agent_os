@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    "manifest.json",
+    "logs/diagnostics.jsonl",
+    "reproduction-steps.txt"
+  ],
+  "maxUncompressedBytes": 31457280,
+  "maxRecordBytes": 16384,
+  "maxLogFiles": 5,
+  "maxActiveLogBytes": 5242880,
+  "retainedBackups": 4,
+  "frontendReportsPerMinute": 20,
+  "frontendRepeatWindowSeconds": 60,
+  "maxFrontendReportBytes": 4096
+}

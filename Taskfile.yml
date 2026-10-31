@@ -1,0 +1,38 @@
+version: '3'
+tasks:
+  bindings:
+    cmds:
+      - wails3 generate bindings -f '-tags bindings' -ts -i
+  frontend:
+    deps: [bindings]
+    dir: frontend
+    cmds:
+      - npm ci
+      - npm run typecheck
+      - npm test
+      - npm run build
+  build:
+    env:
+      MACOSX_DEPLOYMENT_TARGET: '15.0'
+      CGO_CFLAGS: '{{if eq OS "darwin"}}-mmacosx-version-min=15.0{{end}}'
+      CGO_LDFLAGS: '{{if eq OS "darwin"}}-mmacosx-version-min=15.0{{end}}'
+    deps: [frontend]
+    cmds:
+      - go build {{if ne .DEV "true"}}-tags production{{end}} -trimpath {{if eq OS "windows"}}-ldflags="-H windowsgui"{{end}} -o bin/personal-desk{{exeExt}} .
+  check:
+    deps: [frontend]
+    cmds:
+      - go vet ./...
+      - go test ./...
+      - go test -race ./...
+  package:mac:
+    deps: [build]
+    platforms: [darwin]
+    cmds:
+      - sh scripts/package-mac.sh
+  run:
+    cmds:
+      - ./bin/personal-desk{{exeExt}}
+  dev:
+    cmds:
+      - wails3 dev -config build/config.yml

@@ -1,0 +1,11 @@
+{
+  "id": "I-0001",
+  "source": "manual",
+  "scope": "personal",
+  "kind": "user_request",
+  "status": "pending",
+  "sender": null,
+  "occurredAt": null,
+  "receivedAt": "2026-10-29T00:00:00Z",
+  "revision": 1
+}

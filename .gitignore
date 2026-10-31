@@ -1,0 +1,23 @@
+# Generated application binaries, bundles and dependency/build caches.
+/bin/
+/frontend/node_modules/
+/frontend/dist/
+/frontend/dist-diagnostic-smoke/
+*.syso
+.DS_Store
+
+# Local Agent OS workspace and the retained nested checkout.
+/.agents/
+/.codex/
+/.idea/
+/_bmad/
+/_bmad-output/
+/design/
+/skills/
+/skills-lock.json
+/personal-desk/
+
+# Local machine configuration.
+/.env
+/.env.*
+/config.local.*

@@ -1,0 +1,17 @@
+{
+  "apiVersion": "v1",
+  "apiRevision": 2,
+  "capabilities": [
+    "workspace.read",
+    "tasks.read",
+    "inbox.read",
+    "inbox.receive",
+    "inbox.resolve.createTask",
+    "materials.read",
+    "materials.upload"
+  ],
+  "limits": {
+    "maxRequestBodyBytes": 1048576,
+    "maxResponseBytes": 4194304
+  }
+}

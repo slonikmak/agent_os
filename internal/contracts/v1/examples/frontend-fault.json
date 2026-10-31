@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "code": "ui.render_fault",
+  "component": "root",
+  "frames": [
+    {
+      "location": "frontend.render",
+      "line": 12
+    }
+  ]
+}

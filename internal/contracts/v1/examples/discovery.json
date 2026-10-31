@@ -1,0 +1,11 @@
+{
+  "apiVersion": "v1",
+  "apiRevision": 1,
+  "capabilities": [
+    "workspace.read"
+  ],
+  "limits": {
+    "maxRequestBodyBytes": 1048576,
+    "maxResponseBytes": 4194304
+  }
+}

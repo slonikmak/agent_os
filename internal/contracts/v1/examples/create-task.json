@@ -1,0 +1,12 @@
+{
+  "expectedMessageRevision": 1,
+  "action": "createTask",
+  "reason": "This request introduces a new obligation",
+  "task": {
+    "kind": "request",
+    "title": "Clarify export behavior",
+    "summary": null,
+    "nextAction": null,
+    "nextActor": null
+  }
+}

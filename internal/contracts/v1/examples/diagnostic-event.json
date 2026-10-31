@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "at": "2026-10-29T00:00:00Z",
+  "level": "error",
+  "code": "query.fault",
+  "component": "httpapi",
+  "operation": "workspace.read",
+  "requestId": "11111111111111111111111111111111",
+  "errorId": "22222222222222222222222222222222",
+  "frames": [
+    {
+      "location": "queries.workspace",
+      "line": 52
+    }
+  ]
+}

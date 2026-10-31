@@ -1,0 +1,23 @@
+/* Adapter for the existing Personal Desk screens. Functional behavior is unchanged. */
+.pd-app{--bg:var(--desk-surface-page);--side:var(--desk-surface-sidebar);--surface:var(--desk-surface-card);--column:var(--desk-surface-column);--text:var(--desk-text-primary);--secondary:var(--desk-text-secondary);--muted:var(--desk-text-muted);--border:var(--desk-border-subtle);--green:var(--desk-accent);--green-bg:var(--desk-accent-soft);--warm:var(--desk-attention-text);--warm-bg:var(--desk-attention-bg);--titlebar-height:var(--desk-titlebar-height);font-family:var(--desk-font-sans);font-size:var(--desk-font-body)}
+.pd-app button:focus-visible,.pd-app select:focus-visible,.pd-app a:focus-visible,.pd-app summary:focus-visible{outline:var(--desk-focus-width) solid var(--desk-focus);outline-offset:var(--desk-focus-offset)}
+.pd-app .pd-btn{border-radius:var(--desk-radius-control);font-size:var(--desk-font-label)!important}
+.pd-app .pd-btn:hover{border-color:var(--desk-border-control)}
+.pd-app .pd-task{border-radius:var(--desk-radius-card);box-shadow:var(--desk-shadow-card)}
+.pd-app .pd-task:hover{box-shadow:var(--desk-shadow-hover);border-color:var(--desk-border-control)}
+.pd-app .pd-task h3{font-size:var(--desk-font-task);line-height:var(--desk-line-task);font-weight:var(--desk-weight-task)}
+.pd-app .pd-page-head h1,.pd-app .pd-drawer-body>h2{font-size:var(--desk-font-page);line-height:var(--desk-line-page)}
+.pd-app .pd-drawer{width:var(--desk-drawer-width);box-shadow:var(--desk-shadow-drawer);animation-duration:var(--desk-motion-panel)}
+.pd-app .pd-drawer-overlay{background:var(--desk-overlay);backdrop-filter:none}
+.pd-app .pd-stage{background:var(--desk-active-bg);color:var(--desk-active-text)}
+.pd-app .pd-stage.warm,.pd-app .pd-warning,.pd-app .pd-pill.needs_attention{background:var(--desk-attention-bg);color:var(--desk-attention-text)}
+.pd-app .pd-focus-banner{background:var(--desk-accent-soft);color:var(--desk-accent)}
+.pd-app .pd-board-summary{color:var(--desk-text-secondary)}
+.pd-app .pd-source-health{background:var(--desk-success-bg);color:var(--desk-success-text)}
+.pd-app .pd-source-health.error{background:var(--desk-error-bg);color:var(--desk-error-text)}
+.pd-app .pd-source-health.unavailable{background:var(--desk-attention-bg);color:var(--desk-attention-text)}
+.pd-app .pd-receipt.failed{background:var(--desk-error-bg);color:var(--desk-error-text)!important}
+.pd-app .pd-receipt.unknown{background:var(--desk-attention-bg);color:var(--desk-attention-text)!important}
+@media(max-width:820px){.pd-app .pd-page-head h1{font-size:20px;line-height:26px}}
+@media(max-width:560px){.pd-app .pd-page-head h1{font-size:18px;line-height:24px}}
+@media(prefers-reduced-motion:reduce){.pd-app *{animation:none!important;transition:none!important}}

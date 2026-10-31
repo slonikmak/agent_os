@@ -1,0 +1,10 @@
+{
+  "workspaceRevision": 3,
+  "material": {
+    "id": "M-0001",
+    "availability": "available",
+    "mediaType": "text/markdown",
+    "text": "# Synthetic local material\n",
+    "unavailableReason": null
+  }
+}

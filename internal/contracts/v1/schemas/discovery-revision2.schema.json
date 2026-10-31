@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://personaldesk.invalid/contracts/v1/discovery-revision2.schema.json",
+  "type": "object",
+  "properties": {
+    "apiVersion": {
+      "const": "v1"
+    },
+    "apiRevision": {
+      "const": 2
+    },
+    "capabilities": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "workspace.read",
+          "tasks.read",
+          "inbox.read",
+          "inbox.receive",
+          "inbox.resolve.createTask",
+          "materials.read",
+          "materials.upload"
+        ]
+      },
+      "uniqueItems": true,
+      "maxItems": 7
+    },
+    "limits": {
+      "$ref": "v1.schema.json#/$defs/Limits"
+    }
+  },
+  "required": [
+    "apiVersion",
+    "apiRevision",
+    "capabilities",
+    "limits"
+  ],
+  "additionalProperties": false
+}

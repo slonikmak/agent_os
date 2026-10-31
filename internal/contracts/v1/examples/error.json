@@ -1,0 +1,9 @@
+{
+  "error": {
+    "code": "internal_error",
+    "message": "The workspace could not be read",
+    "retryable": false,
+    "requestId": "00000000000000000000000000000001",
+    "errorId": "00000000000000000000000000000002"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "status": "exported",
+  "coverage": {
+    "complete": false,
+    "acceptedRecords": 1,
+    "omittedRecords": 2,
+    "unavailableFiles": 1,
+    "truncatedRecords": 0
+  },
+  "errorId": null
+}

@@ -1,0 +1,95 @@
+{
+  "workspaceRevision": 3,
+  "message": {
+    "id": "I-0001",
+    "source": "manual",
+    "scope": "personal",
+    "kind": "user_request",
+    "status": "applied",
+    "sender": null,
+    "occurredAt": null,
+    "receivedAt": "2026-10-29T00:00:00Z",
+    "revision": 2,
+    "messageId": "request-001",
+    "text": "Clarify the export behavior",
+    "sourceUrl": null,
+    "artifacts": [
+      {
+        "coordinate": {
+          "kind": "file",
+          "coordinate": "synthetic/report.md",
+          "label": null
+        },
+        "materialId": null,
+        "availability": "unavailable",
+        "unavailableReason": "not_imported"
+      }
+    ],
+    "submittedBy": {
+      "clientId": "client-11111111111111111111111111111111",
+      "role": "worker"
+    },
+    "proposedTaskRef": null,
+    "resolution": {
+      "id": "R-0001",
+      "action": "createTask",
+      "reason": "This request introduces a new obligation",
+      "taskId": "T-0001",
+      "appliedBy": {
+        "clientId": "client-22222222222222222222222222222222",
+        "role": "coordinator"
+      },
+      "appliedAt": "2026-10-29T00:00:00Z"
+    }
+  },
+  "task": {
+    "id": "T-0001",
+    "kind": "request",
+    "status": "new",
+    "title": "Clarify export behavior",
+    "summary": null,
+    "nextAction": null,
+    "nextActor": null,
+    "revision": 1,
+    "updatedAt": "2026-10-29T00:00:00Z",
+    "createdAt": "2026-10-29T00:00:00Z",
+    "provenance": {
+      "messageId": "I-0001",
+      "submittedBy": {
+        "clientId": "client-11111111111111111111111111111111",
+        "role": "worker"
+      }
+    },
+    "timeline": [
+      {
+        "id": "E-0001",
+        "kind": "task.created",
+        "at": "2026-10-29T00:00:00Z",
+        "reason": "This request introduces a new obligation",
+        "provenance": {
+          "messageId": "I-0001",
+          "submittedBy": {
+            "clientId": "client-11111111111111111111111111111111",
+            "role": "worker"
+          }
+        },
+        "appliedBy": {
+          "clientId": "client-22222222222222222222222222222222",
+          "role": "coordinator"
+        }
+      }
+    ],
+    "materials": [
+      {
+        "coordinate": {
+          "kind": "file",
+          "coordinate": "synthetic/report.md",
+          "label": null
+        },
+        "materialId": null,
+        "availability": "unavailable",
+        "unavailableReason": "not_imported"
+      }
+    ]
+  }
+}

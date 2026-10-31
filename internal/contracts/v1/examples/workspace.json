@@ -1,0 +1,14 @@
+{
+  "workspaceId": "00000000000000000000000000000001",
+  "workspaceRevision": 1,
+  "createdAt": "2026-10-29T00:00:00Z",
+  "tasks": [],
+  "inbox": [],
+  "sources": [],
+  "counts": {
+    "tasks": 0,
+    "inbox": 0,
+    "unprocessedInbox": 0,
+    "needsAttention": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://personaldesk.invalid/contracts/v1/upload-material-result.schema.json",
+  "type": "object",
+  "properties": {
+    "workspaceRevision": {
+      "$ref": "v1.schema.json#/$defs/Revision"
+    },
+    "taskRef": {
+      "$ref": "v1.schema.json#/$defs/TaskRef"
+    },
+    "materialId": {
+      "$ref": "v1.schema.json#/$defs/ID"
+    }
+  },
+  "required": [
+    "workspaceRevision",
+    "taskRef",
+    "materialId"
+  ],
+  "additionalProperties": false
+}

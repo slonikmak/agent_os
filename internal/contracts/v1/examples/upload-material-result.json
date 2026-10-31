@@ -1,0 +1,8 @@
+{
+  "workspaceRevision": 4,
+  "taskRef": {
+    "taskId": "T-example",
+    "revision": 2
+  },
+  "materialId": "M-example"
+}

@@ -1,0 +1,7 @@
+{
+  "source": "manual",
+  "scope": "personal",
+  "messageId": "request-001",
+  "kind": "user_request",
+  "text": "Clarify the export behavior"
+}

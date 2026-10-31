@@ -1,0 +1,35 @@
+{
+  "workspaceRevision": 2,
+  "message": {
+    "id": "I-0001",
+    "source": "manual",
+    "scope": "personal",
+    "kind": "user_request",
+    "status": "pending",
+    "sender": null,
+    "occurredAt": null,
+    "receivedAt": "2026-10-29T00:00:00Z",
+    "revision": 1,
+    "messageId": "request-001",
+    "text": "Clarify the export behavior",
+    "sourceUrl": null,
+    "artifacts": [
+      {
+        "coordinate": {
+          "kind": "file",
+          "coordinate": "synthetic/report.md",
+          "label": null
+        },
+        "materialId": null,
+        "availability": "unavailable",
+        "unavailableReason": "not_imported"
+      }
+    ],
+    "submittedBy": {
+      "clientId": "client-11111111111111111111111111111111",
+      "role": "worker"
+    },
+    "proposedTaskRef": null,
+    "resolution": null
+  }
+}

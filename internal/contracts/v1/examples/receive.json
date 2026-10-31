@@ -1,0 +1,18 @@
+{
+  "source": "manual",
+  "scope": "personal",
+  "messageId": "request-001",
+  "kind": "user_request",
+  "sender": null,
+  "occurredAt": null,
+  "text": "Clarify the export behavior",
+  "sourceUrl": null,
+  "taskRef": null,
+  "artifacts": [
+    {
+      "kind": "file",
+      "coordinate": "synthetic/report.md",
+      "label": null
+    }
+  ]
+}

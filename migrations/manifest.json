@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "migrations": [
+    {
+      "version": 1,
+      "file": "00001_initial_schema.sql",
+      "sha256": "f07d0ee79ec6ed34a588e922cad119eb9d364c68482eb5581c8f0e0ea54c1293"
+    },
+    {
+      "version": 2,
+      "file": "00002_durable_inbox.sql",
+      "sha256": "3499e1e1b97503dcdd1f39eb0e2aefda70f7112363763ab49b4d34d16834770d"
+    },
+    {
+      "version": 3,
+      "file": "00003_create_task_from_inbox.sql",
+      "sha256": "ababfac611159f580ded2f7ee97686d5bf31875157e288de264b9a1f97c733f3"
+    },
+    {
+      "version": 4,
+      "file": "00004_task_materials.sql",
+      "sha256": "e1b82918077fde3a87590368109af94b677a2a257eca4fa2df0cbc5429adb6eb"
+    }
+  ]
+}

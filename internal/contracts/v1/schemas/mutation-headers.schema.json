@@ -1,0 +1,5 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://personaldesk.invalid/contracts/v1/mutation-headers.schema.json",
+  "$ref": "v1.schema.json#/$defs/MutationHeaders"
+}
